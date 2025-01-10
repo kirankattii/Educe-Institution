@@ -14,7 +14,7 @@ const Landing = () => {
           <button className='text-primarywhite flex items-center  gap-4 bg-primaryblue px-10 py-2.5 rounded-xl hover:bg-primaryblue/80   duration-300 '>Explore the courses <MoveRight className='mt-0.5 ' size={18} /></button>
         </div>
       </div>
-      <div className='flex gap-5 font-quicksand overflow-hidden h-screen'>
+      <div className='flex gap-5 font-quicksand overflow-hidden h-[100vh]'>
         <HandingAnimationLeft />
         <HandingAnimationright />
       </div>
