@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="">
       <style>{styles}</style>
-      <Navbar />
+      {/* <Navbar /> */}
       <Landing />
       <About />
       <Courses />
