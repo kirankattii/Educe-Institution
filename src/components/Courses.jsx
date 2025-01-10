@@ -76,7 +76,10 @@ const Courses = () => {
   return (
     <div className="pb-16 lg:py-24">
       <div className="lg:max-w-5xl m-auto">
-        <div className="flex flex-col mt-10 md:mt-20 gap-20">
+        <p className="text-primarypink text-xl font-bold font-mulish text-center">Our Courses
+        </p>
+        <h2 className="text-4xl text-primarydarkblue font-bold font-quicksand text-center">Courses We Offer</h2>
+        <div className="flex flex-col mt-10 md:mt-10 gap-20">
           {portfolioProjects.map((project, projectIndex) => (
             <Card
               key={project.title}
