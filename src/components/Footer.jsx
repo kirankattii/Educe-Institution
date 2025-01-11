@@ -133,60 +133,56 @@ const Footer = () => {
 
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
-                <p className="font-medium text-gray-900 dark:text-white">Services</p>
+                <p className="font-medium text-gray-900 dark:text-white">Navigations</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                    <a href="#home" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
                       Home
                     </a>
                   </li>
 
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                    <a href="#about" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
                       About Us
                     </a>
                   </li>
 
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                    <a href="#courses" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
                       Courses
                     </a>
                   </li>
 
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                    <a href="#contact" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
                       Contact Us
                     </a>
                   </li>
 
-                  <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                      SEO Optimisation
-                    </a>
-                  </li>
+
                 </ul>
               </div>
 
               <div>
-                <p className="font-medium text-gray-900 dark:text-white">Company</p>
+                <p className="font-medium text-gray-900 dark:text-white">Services</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                      About
+                    <a href="#courses" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                      Courses
                     </a>
                   </li>
 
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                      Meet the Team
+                    <a href="#faq" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                      FAQ
                     </a>
                   </li>
 
                   <li>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-                      Accounts Review
+                    <a href="#testimonials" className="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
+                      Reviews
                     </a>
                   </li>
                 </ul>

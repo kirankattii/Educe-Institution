@@ -2,7 +2,7 @@
 export default function Contact() {
 
   return (
-    <div id='contact' className="isolate mb-20 bg-white px-6 py-24 sm:py-0 lg:px-8">
+    <div id='contact' className="isolate md:mb-20 bg-white px-6 py-24 sm:py-0 lg:px-8">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -32,6 +32,7 @@ export default function Contact() {
                 name="name"
                 type="name"
                 autoComplete="name"
+                placeholder="Your name"
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-primarydarkblue outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-primarydarkblue/80"
               />
             </div>
@@ -47,6 +48,7 @@ export default function Contact() {
                 name="email"
                 type="email"
                 autoComplete="email"
+                placeholder="Your email"
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-primarydarkblue outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-primarydarkblue/80"
               />
             </div>
@@ -56,7 +58,7 @@ export default function Contact() {
               Phone number
             </label>
             <div className="mt-0.5">
-              <div className="flex rounded-md bg-white outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600">
+              <div className="flex rounded-md bg-white outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-primarydarkblue/80">
 
                 <input
                   id="phone-number"
@@ -77,6 +79,8 @@ export default function Contact() {
                 id="message"
                 name="message"
                 rows={2}
+
+                placeholder="Type your message"
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-primarydarkblue outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-primarydarkblue/80"
                 defaultValue={''}
               />
@@ -87,7 +91,7 @@ export default function Contact() {
         <div className="mt-5">
           <button
             type="submit"
-            className="block w-full rounded-md bg-primarydarkblue px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primarydarkblue/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="block w-full rounded-md bg-slate-900 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primarydarkblue/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Let's talk
           </button>
