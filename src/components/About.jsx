@@ -2,12 +2,12 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='flex flex-col gap-5 px-16'>
-      <span className='text-primarypink text-xl mt-10 font-medium font-mulish -mb-4'>About Us</span>
-      <h2 className='text-5xl font-bold text-primarydarkblue font-quicksand'>About Educe Institution of   Computer Education</h2>
-      <div className='flex gap-5 font-mulish mt-10 '>
-        <img src="/about.png" alt="" className='w-2/5' />
-        <div className='w-3/5 flex flex-col gap-5 text-justify bg-primaryblue/5 p-10'>
+    <div className='flex flex-col gap-5 md:px-16 p-5'>
+      <span className='text-primarypink md:text-xl text-lg mt-10 font-medium font-mulish -mb-4'>About Us</span>
+      <h2 className='md:text-5xl text-2xl font-bold text-primarydarkblue font-quicksand'>About Educe Institution of   Computer Education</h2>
+      <div className='flex flex-col lg:flex-row items-center   gap-5 font-mulish lg:mt-10 mt-4 '>
+        <img src="/about.png" alt="" className='lg:w-2/5 w-[80%]' />
+        <div className='lg:w-3/5 w-full flex flex-col gap-5 text-justify bg-primaryblue/5 lg:p-10 p-2'>
           <p className='text-primaryblack/80'>At Educe Institution of Computer Education, we believe education is the key to empowerment. Since our establishment, we have been dedicated to providing top-notch computer education and professional development courses to students from all walks of life.
             <br />
             Located near Kodihalli Police Station, our institution offers a range of diploma and professional courses designed to meet the demands of the modern workplace. From office management to advanced accounting and spoken English, we ensure our students are well-prepared to excel in their chosen careers.</p>

@@ -9,7 +9,7 @@ export const HandingAnimationLeft = () => {
         <Card1 />
         <Card3 />
 
-        {/* Clone for seamless loop */}
+
         <Card2 />
         <Card1 />
         <Card3 />
@@ -34,6 +34,35 @@ export const HandingAnimationright = () => {
         <Card7 />
         <Card4 />
         <Card6 />
+      </div>
+    </div>
+  )
+}
+
+export const AllLandingAnimation = () => {
+  return (
+    <div className="relative h-screen overflow-hidden ">
+      <div className="flex flex-col gap-3 animate-marquee">
+        <Card2 />
+        <Card1 />
+        <Card3 />
+
+        <Card5 />
+        <Card7 />
+        <Card4 />
+        <Card6 />
+
+
+
+        <Card2 />
+        <Card1 />
+        <Card3 />
+
+        <Card5 />
+        <Card7 />
+        <Card4 />
+        <Card6 />
+
       </div>
     </div>
   )

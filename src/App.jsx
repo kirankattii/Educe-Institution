@@ -4,6 +4,9 @@ import Landing from './components/Landing'
 import { styles } from './components/HandingAnimation'
 import About from './components/About'
 import Courses from './components/Courses'
+import Testimonials from './components/Testimonials'
+import Faq from './components/Faq'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -13,6 +16,9 @@ const App = () => {
       <Landing />
       <About />
       <Courses />
+      <Testimonials />
+      <Faq />
+      <Footer />
     </div>
   )
 }

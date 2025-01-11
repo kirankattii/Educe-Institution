@@ -74,7 +74,7 @@ const portfolioProjects = [
 
 const Courses = () => {
   return (
-    <div className="pb-16 lg:py-24">
+    <div className="pb-16 lg:py-24 md:px-10 px-4">
       <div className="lg:max-w-5xl m-auto">
         <p className="text-primarypink text-xl font-bold font-mulish text-center">Our Courses
         </p>
