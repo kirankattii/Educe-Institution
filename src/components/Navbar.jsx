@@ -43,10 +43,10 @@ import { Headset, Menu, X } from 'lucide-react';
 import React, { useState } from 'react';
 
 const nav = [
-  { name: 'Home', link: '#' },
-  { name: 'About Us', link: '#' },
-  { name: 'Courses', link: '#' },
-  { name: 'Programs', link: '#' },
+  { name: 'Home', link: '#home' },
+  { name: 'About Us', link: '#about' },
+  { name: 'Courses', link: '#courses' },
+  { name: 'Reviews', link: '#testimonials' },
 ];
 
 const Navbar = () => {
@@ -80,12 +80,19 @@ const Navbar = () => {
           {nav.map((item, index) => (
             <li
               key={index}
+              onClick={() => setIsOpen(false)}
+
               className="cursor-pointer hover:text-primaryblue font-semibold"
             >
-              {item.name}
+              <a href={item.link}>{item.name}</a>
             </li>
           ))}
         </ul>
+        <button className="text-primarywhite flex items-center gap-2 bg-primaryblue px-4 py-1.5 rounded-md hover:bg-primaryblue/80 duration-300 ml-5 mb-6" onClick={() => setIsOpen(false)}>
+          <a className='flex gap-2 items-center' href="#contact">
+            <Headset size={20} /> Contact Us
+          </a>
+        </button>
       </div>
 
       {/* Contact Us Button for Medium and Larger Screens */}
@@ -93,15 +100,19 @@ const Navbar = () => {
         <ul className="font-mulish flex items-center gap-10">
           {nav.map((item, index) => (
             <li
+              onClick={() => setIsOpen(false)}
               key={index}
               className="cursor-pointer hover:text-primaryblue font-semibold"
             >
-              {item.name}
+              <a href={item.link}>{item.name}</a>
+
             </li>
           ))}
         </ul>
         <button className="text-primarywhite flex items-center gap-2 bg-primaryblue px-4 py-1.5 rounded-md hover:bg-primaryblue/80 duration-300">
-          <Headset size={20} /> Contact Us
+          <a href="#contact" className='flex items-center gap-2'>
+            <Headset size={20} /> Contact Us
+          </a>
         </button>
       </div>
     </nav>

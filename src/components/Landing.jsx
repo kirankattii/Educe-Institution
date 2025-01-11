@@ -4,7 +4,7 @@ import { AllLandingAnimation, HandingAnimationLeft, HandingAnimationright } from
 
 const Landing = () => {
   return (
-    <div className='lg:h-screen  flex items-center flex-col md:flex-row pt-28 md:pt-0 justify-between bg-primarypurple/20 md:px-11 p-5   lg:pt-0 md:gap-10 '>
+    <div id='home' className='lg:h-screen  flex items-center flex-col md:flex-row pt-28 md:pt-0 justify-between bg-primarypurple/20 md:px-11 p-5   lg:pt-0 md:gap-10 '>
       <div className='lg:w-1/2 flex flex-col gap-4'>
         <span className='text-primarypink text-xl font-semibold'>Empowering Minds, Shaping Futures
         </span>

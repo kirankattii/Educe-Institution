@@ -7,8 +7,7 @@ import Card from "./Cards";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2024",
+
     title: "Diploma in Office Management",
     results: [
       { title: "English & Kannada Typing" },
@@ -21,8 +20,7 @@ const portfolioProjects = [
     image: '/dom.png',
   },
   {
-    company: "Acme Corp",
-    year: "2024",
+
     title: "Diploma in Advanced Accounting ",
     results: [
       { title: "English & Kannada Typing" },
@@ -35,8 +33,6 @@ const portfolioProjects = [
     image: '/daa.png',
   },
   {
-    company: "Acme Corp",
-    year: "2024",
     title: "Diploma in Corporate Accounting ",
     results: [
       { title: "English & Kannada Typing" },
@@ -49,9 +45,7 @@ const portfolioProjects = [
     image: '/dca.png',
   },
   {
-    company: "Acme Corp",
-    year: "2024",
-    title: "Appointment Booking App",
+    title: "Spoken English",
     results: [
       { title: "Communication Skills & Grammar Mastery" },
       { title: "Sentence Formation & Vocabulary Building:" },
@@ -74,7 +68,7 @@ const portfolioProjects = [
 
 const Courses = () => {
   return (
-    <div className="pb-16 lg:py-24 md:px-10 px-4">
+    <div id="courses" className="pb-16 lg:py-24 md:px-10 px-4">
       <div className="lg:max-w-5xl m-auto">
         <p className="text-primarypink text-xl font-bold font-mulish text-center">Our Courses
         </p>

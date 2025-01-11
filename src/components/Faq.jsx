@@ -19,9 +19,9 @@ const faq = [
 const Faq = () => {
 
   return (
-    <section className="py-16 lg:px-60 px-4" >
-      <p className='text-center text-xl font-semibold text-primarypink'>Faq</p>
-      <h1 className='text-3xl font-semibold font-quicksand text-primarydarkblue text-center mb-5 '>Frequently Asked Questions</h1>
+    <section id='faq' className="md:py-10 lg:px-60 px-4" >
+      <p className='text-center text-xl font-semibold text-primarypink'>FaQ</p>
+      <h1 className='text-3xl font-bold tracking-tight font-quicksand text-primarydarkblue text-center mb-5'>Frequently Asked Questions</h1>
       <div
         className="divide-y divide-gray-100 rounded-xl border border-gray-100 bg-white dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-900"
       >
