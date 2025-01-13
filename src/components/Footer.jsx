@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="bg-white lg:grid lg:grid-cols-5 dark:bg-gray-900">
+    <footer>
+      <div className="bg-white lg:grid lg:grid-cols-5 dark:bg-gray-900">
         <div className="relative block h-32 lg:col-span-2 lg:h-full">
           <img
             src="https://images.unsplash.com/photo-1642370324100-324b21fab3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
@@ -218,8 +218,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   )
 }
 

@@ -1,36 +1,8 @@
-// import React from 'react'
-// import Navbar from './components/Navbar'
-// import Landing from './components/Landing'
-// import { styles } from './components/HandingAnimation'
-// import About from './components/About'
-// import Courses from './components/Courses'
-// import Testimonials from './components/Testimonials'
-// import Faq from './components/Faq'
-// import Footer from './components/Footer'
-// import Contact from './components/Contact'
-
-// const App = () => {
-//   return (
-//     <div >
-//       <style>{styles}</style>
-//       <Navbar />
-//       <Landing />
-//       <About />
-//       <Courses />
-//       <Testimonials />
-//       <Faq />
-//       <Contact />
-//       <Footer />
-//     </div>
-//   )
-// }
-
-// export default App
-
 
 
 import React, { Suspense } from 'react';
 import { styles } from './components/HandingAnimation';
+import { Helmet } from 'react-helmet';
 const Navbar = React.lazy(() => import('./components/Navbar'));
 const Landing = React.lazy(() => import('./components/Landing'));
 const About = React.lazy(() => import('./components/About'));
@@ -42,7 +14,18 @@ const Contact = React.lazy(() => import('./components/Contact'));
 
 const App = () => {
   return (
-    <div>
+    <main>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Educe Institution</title>
+        <meta
+          name="description"
+          content="Educe Institution offers world-class education, empowering students with knowledge and skills for a brighter future."
+        />
+        <link rel="icon" type="image/svg+xml" href="/public/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Helmet>
+
       <style>{styles}</style>
       <Suspense fallback={<div className='flex items-center m-auto mt-[50%]  justify-center w-12 h-12 border-4 border-blue-500 border-dotted rounded-full animate-spin'></div>}>
         <Navbar />
@@ -54,7 +37,7 @@ const App = () => {
         <Contact />
         <Footer />
       </Suspense>
-    </div>
+    </main>
   );
 };
 
