@@ -6,7 +6,7 @@ const About = () => {
       <span className='text-primarypink md:text-xl text-lg mt-10 font-medium font-mulish -mb-4'>About Us</span>
       <h2 className='md:text-5xl text-2xl font-bold text-primarydarkblue font-quicksand'>About Educe Institution of   Computer Education</h2>
       <div className='flex flex-col lg:flex-row items-center   gap-5 font-mulish lg:mt-10 mt-4 '>
-        <img src="/about.png" alt="" className='lg:w-2/5 w-[80%]' />
+        <img src="/about.png" alt="About section" className='lg:w-2/5 w-[80%]' />
         <div className='lg:w-3/5 w-full flex flex-col gap-5 text-justify bg-primaryblue/5 lg:p-10 p-2'>
           <p className='text-primaryblack/80'>At Educe Institution of Computer Education, we believe education is the key to empowerment. Since our establishment, we have been dedicated to providing top-notch computer education and professional development courses to students from all walks of life.
             <br />

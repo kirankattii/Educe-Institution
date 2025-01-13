@@ -7,10 +7,11 @@
 @tailwind utilities;
 
 @layer utilities {
-  .container{
+  .container {
     @apply lg:max-w-5xl
   }
 }
+
 html {
   scroll-behavior: smooth;
 }

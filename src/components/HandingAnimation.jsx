@@ -89,7 +89,7 @@ const Card2 = () => {
       <h1 className='font-bold text-2xl'>5k +</h1>
       <p className='font-medium'>Happy Student</p>
     </div>
-    <img src="/landing1.svg" className='w-[60%] h-[55%] m-auto mt-10' alt="" />
+    <img src="/landing1.svg" className='w-[60%] h-[55%] m-auto mt-10' alt="Educe Institution of Computer Education" />
   </div>
 };
 const Card3 = () => {
@@ -101,7 +101,7 @@ const Card3 = () => {
       <Eye size={40} className='text-primarywhite' />
     </div>
     <img src="/cornerDesign.svg" className='ml-4 -mb-4 overflow-hidden absolute  right-0  bottom-0 h-[300px]
-    ' alt="" />
+    ' alt="Our vision" />
   </div>
 };
 
@@ -109,7 +109,7 @@ const Card3 = () => {
 const Card4 = () => {
   return <div className='w-60 relative bg-primarygreen rounded-xl '>
     <div className='w-full h-full  bg-primaryblack/80 rounded-xl absolute opacity-25'></div>
-    <img src="/landing2.svg" alt="" />
+    <img src="/landing2.svg" alt="High rated" />
     <div className='absolute bottom-6  text-primarywhite font-bold text-2xl  m-auto w-full flex items-center justify-center  flex-col'>
       <h1 className='font-medium flex items-center gap-2'>4.8 <Star className='text-primaryGold' size={24} /></h1>
       <span className='text-sm'>High Rated</span>
@@ -127,7 +127,7 @@ const Card5 = () => {
       <Telescope size={40} className='' />
     </div>
     <img src="/cornerDesign.svg" className='ml-0 rotate-90 mt-6 overflow-hidden absolute  left-12  top-0 h-[280px]
-    ' alt="" />
+    ' alt="Our Mission" />
   </div>
 };
 
@@ -136,7 +136,7 @@ const Card6 = () => {
   return <div className='w-60 relative bg-primarypink rounded-2xl '>
     <div className='w-full h-full  bg-primaryblack/80 rounded-2xl  absolute opacity-10 '></div>
 
-    <img src="/statistics.jpg" className='w-[100%] h-[55%] m-auto rounded-xl ' alt="" />
+    <img src="/statistics.jpg" className='w-[100%] h-[55%] m-auto rounded-xl ' alt="Expert teachers" />
     <div className='flex m-auto gap-3 justify-center  items-center mt-5 mb-5 text-center'>
       <Award className='text-primarywhite' size={40} />
       <h1 className='font-bold text-xl text-primarywhite'>Expert Teacher</h1>
@@ -150,7 +150,7 @@ const Card7 = () => {
   return <div className='w-60 relative bg-primarypurple/80 rounded-2xl '>
     <div className='w-full h-full  bg-primaryblack/80 rounded-2xl  absolute opacity-10 '></div>
 
-    <img src="/usingpc.jpg" className='w-[100%] h-[55%] m-auto rounded-xl ' alt="" />
+    <img src="/usingpc.jpg" className='w-[100%] h-[55%] m-auto rounded-xl ' alt="Modern labs" />
     <div className='flex m-auto  items-center my-5 text-center justify-center gap-3'>
       <Laptop className='text-primarywhite' size={40} />
       <h1 className='font-bold text-xl text-primarywhite'>Modern Lab

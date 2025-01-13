@@ -2,7 +2,6 @@
 
 
 import React from "react";
-import { ArrowUpRightIcon } from "lucide-react";
 import Card from "./Cards";
 
 const portfolioProjects = [
@@ -84,11 +83,7 @@ const Courses = () => {
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
-                  {/* <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
-                    <span>{project.company}</span>
-                    <span>&bull;</span>
-                    <span>{project.year}</span>
-                  </div> */}
+
 
                   <h3 className="text-white font-serif text-xl md:text-2xl">
                     {project.title}
@@ -104,12 +99,7 @@ const Courses = () => {
                       </li>
                     ))}
                   </ul>
-                  {/* <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <button className="bg-white text-gray-950 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 md:w-auto md:px-6">
-                      <span>Visit Live Site</span>
-                      <ArrowUpRightIcon className="size-4" />
-                    </button>
-                  </a> */}
+
                 </div>
                 <div className="relative">
                   <img
