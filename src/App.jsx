@@ -3,6 +3,7 @@
 import React, { Suspense } from 'react';
 import { styles } from './components/HandingAnimation';
 import { Helmet } from 'react-helmet';
+import GoogleSiteVerification from './components/GoogleSiteVerification';
 const Navbar = React.lazy(() => import('./components/Navbar'));
 const Landing = React.lazy(() => import('./components/Landing'));
 const About = React.lazy(() => import('./components/About'));
@@ -25,7 +26,7 @@ const App = () => {
         <link rel="icon" type="image/svg+xml" href="/public/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
-
+      <GoogleSiteVerification />
       <style>{styles}</style>
       <Suspense fallback={<div className='flex items-center m-auto mt-[50%]  justify-center w-12 h-12 border-4 border-blue-500 border-dotted rounded-full animate-spin'></div>}>
         <Navbar />
