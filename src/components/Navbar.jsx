@@ -8,6 +8,7 @@ const nav = [
   { name: 'Reviews', link: '#testimonials' },
 ];
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
